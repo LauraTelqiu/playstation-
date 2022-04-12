@@ -17,7 +17,8 @@ function Playstation() {
   return (
    <div>
     
-    <div className='text'>
+      <div className='text'>
+      <img className ="image"src={playstation.image} alt="image"/>
       <p>{`Name: ${ playstation.name }`}</p>
       <p>{`Year released: ${playstation.year}`}</p>
       <p>{`Generation: ${ playstation.generation }`}</p>

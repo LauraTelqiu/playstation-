@@ -12,28 +12,17 @@ code {
     monospace;
 }
  .App{
-  
   background-image: url("https://images.unsplash.com/photo-1621947081720-86970823b77a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80");
   color:rgb(171, 170, 170);
   height: 100vh;
-  
-
- 
-} 
-
-  
-
-
-
+  } 
 
 .text {
   text-align: center;
   font-size: xx-large;
   flex-direction: column;
   color:rgb(171, 170, 170);
-  
-
-
+  padding: 100px;
 }
 
 .nav {
@@ -49,6 +38,7 @@ font-size: xx-large;
 .playstations {
   color:rgb(171, 170, 170);
   text-align: center;
+  
 }
 
 .summary{
@@ -71,5 +61,9 @@ font-size: xx-large;
   justify-content: center;
   text-decoration: none;
   color:rgb(171, 170, 170);
+}
 
+.image {
+  width: 150px;
+  height:150px;
 }
