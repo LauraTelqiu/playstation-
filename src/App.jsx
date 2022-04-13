@@ -28,7 +28,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-       {/* <Route path="/" element={<Home />} /> */}
+       <Route path="/" element={<Home />} />
         <Route path="/playstations" element={<PlayStations playstations={playStations} />} />
         <Route path="/playstations/:id" element={<Playstation />} />
       </Routes>

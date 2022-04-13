@@ -17,6 +17,7 @@ code {
   height: 100vh;
   
   
+  
   } 
 
 .text {
@@ -24,46 +25,45 @@ code {
   font-size: xx-large;
   flex-direction: column;
   color:rgb(171, 170, 170);
+  padding:50px;
  
 }
 
 .nav {
 display:flex;
-justify-content: center;
+justify-content: space-between;
 text-decoration: none;
-margin: 50px;
 font-size: xx-large;
+background-color:rgb(0, 0, 114);
+padding:5px;
+
 
   
 } 
 
-#link {
+.link {
   color:rgb(171, 170, 170);
-  margin:0 auto;
-  
-  
+  text-decoration: none;
 }
 
-.summary{
+.home{
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size:x-large;
-  padding: 50px;
+  font-size: xx-large;
   color:rgb(171, 170, 170);
+  padding: 20px;
+ 
 
 }
 
-/* .title {
-  display: flex;
-  justify-content: center;
-  color:rgb(171, 170, 170);
-} */
+
 
 .ps{
   display: flex;
   justify-content: center;
-  text-decoration: none;
   color:rgb(171, 170, 170);
+  font-size:x-large;
+  
 }
 
 .image {
